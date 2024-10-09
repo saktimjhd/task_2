@@ -87,12 +87,16 @@ table {
   margin-top: 20px;
 }
 
-th,
+th {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
 td {
   border: 1px solid #ccc;
   padding: 8px;
-
-  text-align: center;
+  text-align: left;
   width: 50%;
 }
 
